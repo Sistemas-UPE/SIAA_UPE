@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO4nO95OSUkGZc68Et6nPqQAAAAACAAAAAAAQZgAAAAEAACAAAADSwPzBja3KouUnakvFKEV7ITXVMSQh9xQTTECxrcH83gAAAAAOgAAAAAIAACAAAAC0omIsxJuEwcxq/D/MVjOlHjCXhGCQt7Y+jOYKZLKrUCAAAAAp9lFFerLR/pBExazC2gb2a6hQ1lpzrqvwty+pzU6d4kAAAAAte8x9cXUqeGT+GkELB9x2tr3lR666xaKgy8zirXB/9LPoe7dnkK/7DXRKUiY6X8LRZVsrk5l9+HE6C98ffCNb</EncryptedPassword>
+    <_PublishTargetUrl>ftp://69.49.115.40/SIAUPE/</_PublishTargetUrl>
+    <History>True|2024-02-26T18:25:03.5895407Z;True|2024-02-20T12:38:18.4382281-06:00;True|2024-02-19T13:41:09.5833650-06:00;True|2024-02-16T23:13:20.7497510-06:00;True|2024-02-15T18:25:54.8753819-06:00;True|2024-02-15T15:22:09.5687544-06:00;True|2024-02-15T13:47:54.2264417-06:00;True|2024-02-14T13:26:38.1545761-06:00;True|2024-02-13T14:50:17.9285112-06:00;True|2024-02-13T14:31:03.4763048-06:00;True|2023-12-15T14:23:25.1147114-06:00;True|2023-08-08T11:14:40.9076467-06:00;True|2023-08-07T15:54:07.9965365-06:00;True|2023-07-26T10:02:02.0618023-06:00;True|2023-07-17T21:26:04.0021369-06:00;True|2023-07-17T13:20:59.2913295-06:00;True|2023-07-13T15:51:00.9676676-06:00;True|2023-07-13T15:44:35.5013887-06:00;True|2023-07-13T15:39:41.5013899-06:00;True|2023-07-13T15:34:15.0184031-06:00;True|2023-07-13T15:31:02.7225223-06:00;True|2023-07-13T15:22:45.0483201-06:00;True|2023-07-13T10:45:39.6154824-06:00;True|2023-06-21T10:11:10.2103844-06:00;True|2023-06-07T15:43:56.5084526-06:00;True|2023-05-23T15:49:45.3177654-06:00;True|2023-04-11T13:41:07.4999324-06:00;True|2023-04-10T16:23:26.9888609-06:00;True|2023-02-09T18:40:35.2810492-06:00;True|2023-02-09T18:21:10.2910334-06:00;True|2023-02-08T17:25:26.5788945-06:00;True|2023-02-08T16:41:45.6558390-06:00;True|2023-02-01T17:20:14.7206005-06:00;True|2023-01-10T14:23:35.6815886-06:00;True|2023-01-12T12:10:51.4290659-06:00;True|2023-01-06T16:44:39.8628798-06:00;True|2023-01-06T16:41:36.8407033-06:00;False|2023-01-06T16:39:34.3208157-06:00;True|2023-01-06T16:24:15.3919031-06:00;True|2023-01-06T16:00:46.4572136-06:00;True|2023-01-06T15:32:46.6771885-06:00;True|2023-01-06T15:24:05.4376504-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="admin/agregarUsuario.aspx">
+      <publishTime>12/24/2022 14:34:18</publishTime>
+    </File>
+    <File Include="admin/altaPagos.aspx">
+      <publishTime>12/24/2022 14:05:44</publishTime>
+    </File>
+    <File Include="admin/comprobarDepositos.aspx">
+      <publishTime>02/21/2024 15:42:02</publishTime>
+    </File>
+    <File Include="admin/comprobarPagos.aspx">
+      <publishTime>12/24/2022 14:05:44</publishTime>
+    </File>
+    <File Include="admin/conceptosPagos.aspx">
+      <publishTime>02/13/2024 14:47:03</publishTime>
+    </File>
+    <File Include="admin/cPNI.aspx">
+      <publishTime>02/13/2024 14:47:02</publishTime>
+    </File>
+    <File Include="admin/gfpCaja.aspx">
+      <publishTime>02/13/2024 14:47:02</publishTime>
+    </File>
+    <File Include="admin/inscripcion.aspx">
+      <publishTime>02/21/2024 15:38:07</publishTime>
+    </File>
+    <File Include="admin/nTiket.aspx">
+      <publishTime>01/30/2024 18:22:25</publishTime>
+    </File>
+    <File Include="admin/tiket.aspx">
+      <publishTime>01/29/2024 16:40:02</publishTime>
+    </File>
+    <File Include="base.Master">
+      <publishTime>02/12/2024 11:02:12</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>06/24/2021 15:06:01</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>11/21/2022 06:57:16</publishTime>
+    </File>
+    <File Include="bin/EPPlus.Interfaces.dll">
+      <publishTime>11/21/2022 06:51:04</publishTime>
+    </File>
+    <File Include="bin/EPPlus.System.Drawing.dll">
+      <publishTime>11/21/2022 06:51:06</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>12/24/2022 14:05:40</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.CONTROL.exe">
+      <publishTime>02/26/2024 12:22:20</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.CONTROL.exe.config">
+      <publishTime>01/02/2023 19:23:13</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.CONTROL.pdb">
+      <publishTime>02/26/2024 12:22:20</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.dll">
+      <publishTime>02/26/2024 12:22:20</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.MODELO.exe">
+      <publishTime>02/26/2024 12:22:19</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.MODELO.exe.config">
+      <publishTime>07/20/2023 12:07:24</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.MODELO.pdb">
+      <publishTime>02/26/2024 12:22:19</publishTime>
+    </File>
+    <File Include="bin/SIAA_UPE.pdb">
+      <publishTime>02/26/2024 12:22:20</publishTime>
+    </File>
+    <File Include="contolEscolar/editUser.aspx">
+      <publishTime>01/11/2024 13:58:55</publishTime>
+    </File>
+    <File Include="contolEscolar/modificarUsuario.aspx">
+      <publishTime>01/11/2024 20:20:26</publishTime>
+    </File>
+    <File Include="controlEscolar/adminGrupo.aspx">
+      <publishTime>01/25/2024 14:45:21</publishTime>
+    </File>
+    <File Include="controlEscolar/asignacionDocente.aspx">
+      <publishTime>01/25/2024 14:26:22</publishTime>
+    </File>
+    <File Include="controlEscolar/asignatura.aspx">
+      <publishTime>02/13/2024 13:43:01</publishTime>
+    </File>
+    <File Include="controlEscolar/consultaRecursamiento.aspx">
+      <publishTime>02/26/2024 12:11:34</publishTime>
+    </File>
+    <File Include="controlEscolar/modificarUsuario.aspx">
+      <publishTime>02/01/2024 18:28:06</publishTime>
+    </File>
+    <File Include="controlEscolar/recursamientos.aspx">
+      <publishTime>02/12/2024 11:00:13</publishTime>
+    </File>
+    <File Include="EVCD/acceso.aspx">
+      <publishTime>02/13/2024 14:47:02</publishTime>
+    </File>
+    <File Include="EVCD/ADMIN/adminEvaluacion.aspx">
+      <publishTime>03/06/2023 14:20:40</publishTime>
+    </File>
+    <File Include="EVCD/ADMIN/adminGrupo.aspx">
+      <publishTime>03/07/2023 11:35:48</publishTime>
+    </File>
+    <File Include="EVCD/ADMIN/reiniciarEVCD.aspx">
+      <publishTime>01/25/2024 16:15:04</publishTime>
+    </File>
+    <File Include="EVCD/ADMIN/resultadosEVCD.aspx">
+      <publishTime>02/08/2024 09:41:55</publishTime>
+    </File>
+    <File Include="EVCD/Ev01.aspx">
+      <publishTime>02/13/2024 14:47:02</publishTime>
+    </File>
+    <File Include="home.aspx">
+      <publishTime>02/15/2024 15:47:22</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>02/13/2024 12:46:19</publishTime>
+    </File>
+    <File Include="nIngreso/aspirantes.aspx">
+      <publishTime>02/21/2024 14:17:26</publishTime>
+    </File>
+    <File Include="nIngreso/consultaAspirantes.aspx">
+      <publishTime>02/21/2024 15:38:25</publishTime>
+    </File>
+    <File Include="nIngreso/convocatoria.aspx">
+      <publishTime>01/26/2024 12:08:04</publishTime>
+    </File>
+    <File Include="nIngreso/documentos/a.html">
+      <publishTime>02/15/2024 13:44:03</publishTime>
+    </File>
+    <File Include="pagosR/fichaPago.aspx">
+      <publishTime>02/15/2023 17:20:11</publishTime>
+    </File>
+    <File Include="pagosR/fichaPagoOtros.aspx">
+      <publishTime>12/24/2022 14:05:42</publishTime>
+    </File>
+    <File Include="pagosR/nIngresoFP.aspx">
+      <publishTime>12/24/2022 14:05:42</publishTime>
+    </File>
+    <File Include="pagosR/propedeuticoFP.aspx">
+      <publishTime>02/10/2023 09:03:21</publishTime>
+    </File>
+    <File Include="src/css/fontawesome.css">
+      <publishTime>01/16/2024 13:59:21</publishTime>
+    </File>
+    <File Include="src/css/siaa.css">
+      <publishTime>02/21/2024 15:25:40</publishTime>
+    </File>
+    <File Include="src/css/Style_SIAA.css">
+      <publishTime>01/25/2024 11:42:24</publishTime>
+    </File>
+    <File Include="src/img/busto.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/btn01.png">
+      <publishTime>01/17/2024 16:06:16</publishTime>
+    </File>
+    <File Include="src/img/element/btn02.png">
+      <publishTime>01/17/2024 16:06:16</publishTime>
+    </File>
+    <File Include="src/img/element/btn03.png">
+      <publishTime>01/17/2024 16:06:16</publishTime>
+    </File>
+    <File Include="src/img/element/btn04.png">
+      <publishTime>01/17/2024 18:10:49</publishTime>
+    </File>
+    <File Include="src/img/element/btn05.png">
+      <publishTime>01/17/2024 18:02:23</publishTime>
+    </File>
+    <File Include="src/img/element/btn06.png">
+      <publishTime>01/17/2024 18:02:23</publishTime>
+    </File>
+    <File Include="src/img/element/btn07.png">
+      <publishTime>01/17/2024 16:54:42</publishTime>
+    </File>
+    <File Include="src/img/element/btn08.png">
+      <publishTime>01/17/2024 16:55:58</publishTime>
+    </File>
+    <File Include="src/img/element/btn09.png">
+      <publishTime>01/17/2024 16:57:17</publishTime>
+    </File>
+    <File Include="src/img/element/btn10.png">
+      <publishTime>01/17/2024 18:02:23</publishTime>
+    </File>
+    <File Include="src/img/element/btn12.png">
+      <publishTime>01/17/2024 18:02:26</publishTime>
+    </File>
+    <File Include="src/img/element/btn13.png">
+      <publishTime>01/17/2024 18:02:26</publishTime>
+    </File>
+    <File Include="src/img/element/btn14.png">
+      <publishTime>01/17/2024 16:58:17</publishTime>
+    </File>
+    <File Include="src/img/element/btn15.png">
+      <publishTime>01/31/2024 13:45:17</publishTime>
+    </File>
+    <File Include="src/img/element/btn16.1.png">
+      <publishTime>02/06/2024 11:58:36</publishTime>
+    </File>
+    <File Include="src/img/element/btn16.png">
+      <publishTime>02/01/2024 19:23:43</publishTime>
+    </File>
+    <File Include="src/img/element/btn17.png">
+      <publishTime>02/06/2024 11:58:36</publishTime>
+    </File>
+    <File Include="src/img/element/btn18.png">
+      <publishTime>02/13/2024 14:24:32</publishTime>
+    </File>
+    <File Include="src/img/element/btn19.png">
+      <publishTime>02/15/2024 15:43:27</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf01.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf02.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf03.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf05.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf09.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf10.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf11.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf17.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf19.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/btn_gf26.png">
+      <publishTime>01/17/2024 18:51:30</publishTime>
+    </File>
+    <File Include="src/img/element/info.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/ud_card.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_booking_re_gw4j.svg">
+      <publishTime>01/24/2023 16:56:54</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_book_lover_re_rwjy.svg">
+      <publishTime>01/24/2023 16:56:54</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_calendar_re_ki49.svg">
+      <publishTime>01/24/2023 16:56:54</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_container_ship_re_alm4.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_credit_card_re_blml.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_education_f8ru.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_exams_g-4-ow.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_factory_dy-0-a.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_file_searching_re_3evy.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_folder_re_apfp.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_hire_re_gn5j.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_house_searching_re_stk8.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_interview_re_e5jn.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_invite_re_rrcp.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_mailbox_re_dvds.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_maintenance_re_59vn.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_manage_chats_re_0yoj.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_online_resume_re_ru7s.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_page_not_found_re_e9o6.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_professor_-8-lrt.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_search_re_x5gq.svg">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_selecting_re_5ff6.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_things_to_say_re_jpcg.svg">
+      <publishTime>01/09/2023 14:16:39</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_upload_re_pasx.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_web_development_0l6v.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/element/undraw_web_devices_re_m8sc.svg">
+      <publishTime>01/24/2023 16:56:58</publishTime>
+    </File>
+    <File Include="src/img/ico/aceptado.png">
+      <publishTime>07/13/2023 12:44:50</publishTime>
+    </File>
+    <File Include="src/img/ico/calendar.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/certification.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/curse.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/curse_b.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/del.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/history.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/home.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/id.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/inscribe.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/master.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/recurse.png">
+      <publishTime>02/15/2024 16:17:36</publishTime>
+    </File>
+    <File Include="src/img/ico/register.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/serch.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/test.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/update.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/ico/upe.ico">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/logo/nav.png">
+      <publishTime>01/16/2024 14:25:04</publishTime>
+    </File>
+    <File Include="src/img/logo/upe.png">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/img/logo/upe_blanco.png">
+      <publishTime>01/16/2024 10:53:23</publishTime>
+    </File>
+    <File Include="src/img/TABALA.png">
+      <publishTime>02/09/2023 17:41:26</publishTime>
+    </File>
+    <File Include="src/img/tiket.png">
+      <publishTime>08/24/2023 10:09:51</publishTime>
+    </File>
+    <File Include="src/js/contador.js">
+      <publishTime>02/20/2024 12:34:49</publishTime>
+    </File>
+    <File Include="src/js/main.js">
+      <publishTime>12/24/2022 14:05:48</publishTime>
+    </File>
+    <File Include="src/js/siaa.js">
+      <publishTime>02/20/2024 11:50:10</publishTime>
+    </File>
+    <File Include="sub.master">
+      <publishTime>01/11/2024 18:02:14</publishTime>
+    </File>
+    <File Include="timeout.html">
+      <publishTime>12/24/2022 14:05:42</publishTime>
+    </File>
+    <File Include="user/actualizarUsuario.aspx">
+      <publishTime>12/24/2022 17:55:52</publishTime>
+    </File>
+    <File Include="user/adeudos.aspx">
+      <publishTime>02/23/2024 15:46:19</publishTime>
+    </File>
+    <File Include="user/consultaPagos.aspx">
+      <publishTime>02/13/2024 14:47:02</publishTime>
+    </File>
+    <File Include="user/gFichaPago.aspx">
+      <publishTime>02/13/2024 14:47:02</publishTime>
+    </File>
+    <File Include="user/gFichaPagosOtros.aspx">
+      <publishTime>12/24/2022 14:05:44</publishTime>
+    </File>
+    <File Include="user/tutoriales.aspx">
+      <publishTime>02/13/2024 14:47:02</publishTime>
+    </File>
+    <File Include="Viculacion/inicio.aspx">
+      <publishTime>12/24/2022 14:05:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/15/2023 14:20:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

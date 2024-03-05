@@ -1,0 +1,104 @@
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll.config
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.dll
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CopyComplete
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll.config
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.pdb
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.AssemblyReference.cache
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CoreCompileInputs.cache
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CopyComplete
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.dll
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.pdb
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE\bin\AjaxControlToolkit.dll
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.AssemblyReference.cache
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CoreCompileInputs.cache
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.dll
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll.config
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\AjaxControlToolkit.dll
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CopyComplete
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.AssemblyReference.cache
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\itextsharp.dll
+D:\00Proyectos\SIAA_UPE\SIAA_UPE\bin\itextsharp.xml
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\itextsharp.dll
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\BouncyCastle.Crypto.dll
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE\bin\itextsharp.xml
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll.config
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\AjaxControlToolkit.dll
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.AssemblyReference.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CoreCompileInputs.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CopyComplete
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.dll
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll.config
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\itextsharp.dll
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe.config
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe.config
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\bin\itextsharp.xml
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.AssemblyReference.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CoreCompileInputs.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CopyComplete
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.dll
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.AssemblyReference.cache
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CoreCompileInputs.cache
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll.config
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.dll
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\AjaxControlToolkit.dll
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\itextsharp.dll
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe.config
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\itextsharp.xml
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.CopyComplete
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.dll
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.ResolveComReference.cache
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\EPPlus.dll
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\EPPlus.Interfaces.dll
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\EPPlus.System.Drawing.dll
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE\bin\EPPlus.xml
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\EPPlus.dll
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\EPPlus.Interfaces.dll
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\EPPlus.System.Drawing.dll
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\SIAA_UPE.CONTROL.exe.config
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\bin\EPPlus.xml
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE\obj\Debug\SIAA_UPE.csproj.ResolveComReference.cache

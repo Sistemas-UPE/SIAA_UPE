@@ -1,0 +1,22 @@
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.csproj.CoreCompileInputs.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.exe.config
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.exe
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.csproj.AssemblyReference.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.csproj.SuggestedBindingRedirects.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.csproj.CoreCompileInputs.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.exe
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.exe
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.MODELO\bin\Debug\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.csproj.CoreCompileInputs.cache
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.exe
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.csproj.AssemblyReference.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Debug\SIAA_UPE.MODELO.csproj.AssemblyReference.cache

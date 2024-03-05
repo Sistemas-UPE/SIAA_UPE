@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DataSource" Class="DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=mssql1c75.carrierzone.com;User ID=dbm_k1v_upenergia_edu_mx" SettingsObjectName="SIAA_UPE.MODELO.Properties.Settings" SettingsPropertyName="DataSourceConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CA_SIA_ASIGNATURA" Member="CA_SIA_ASIGNATURA">
+    <Type Name="CA_SIA_ASIGNATURA">
+      <Column Name="idAsignatura" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idPE" Type="System.String" DbType="NChar(5)" CanBeNull="true" />
+      <Column Name="nomAsignatura" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="creditos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cuatrimestre" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="CA_SIA_ASIGNATURA_CA_SIA_DTLAD" Member="CA_SIA_DTLAD" ThisKey="idAsignatura" OtherKey="idAsignatura" Type="CA_SIA_DTLAD" />
+      <Association Name="CT_SIA_PROEDU_CA_SIA_ASIGNATURA" Member="CT_SIA_PROEDU" ThisKey="idPE" OtherKey="idPE" Type="CT_SIA_PROEDU" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VI_SIA_PRACTICAESCOLAR" Member="VI_SIA_PRACTICAESCOLAR">
+    <Type Name="VI_SIA_PRACTICAESCOLAR">
+      <Column Name="idPracticaEscolar" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idPractica" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idAlumno" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="idInstitucion" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="fInicio" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fFin" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="CT_SIA_PRACTICA_VI_SIA_PRACTICAESCOLAR" Member="CT_SIA_PRACTICA" ThisKey="idPractica" OtherKey="idPractica" Type="CT_SIA_PRACTICA" IsForeignKey="true" />
+      <Association Name="FD_SIA_ALUMNO_VI_SIA_PRACTICAESCOLAR" Member="FD_SIA_ALUMNO" ThisKey="idAlumno" OtherKey="idAlumno" Type="FD_SIA_ALUMNO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CA_SIA_DTLAD" Member="CA_SIA_DTLAD">
+    <Type Name="CA_SIA_DTLAD">
+      <Column Name="idDtlAD" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idDocente" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="idAsignatura" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="idGrupo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="CA_SIA_DTLAD_ED_SIA_EVDOC" Member="ED_SIA_EVDOC" ThisKey="idDtlAD" OtherKey="idDtlMM" Type="ED_SIA_EVDOC" />
+      <Association Name="CA_SIA_ASIGNATURA_CA_SIA_DTLAD" Member="CA_SIA_ASIGNATURA" ThisKey="idAsignatura" OtherKey="idAsignatura" Type="CA_SIA_ASIGNATURA" IsForeignKey="true" />
+      <Association Name="CT_SIA_GRUPO_CA_SIA_DTLAD" Member="CT_SIA_GRUPO" ThisKey="idGrupo" OtherKey="idGrupo" Type="CT_SIA_GRUPO" IsForeignKey="true" />
+      <Association Name="FD_SIA_DOCENTE_CA_SIA_DTLAD" Member="FD_SIA_DOCENTE" ThisKey="idDocente" OtherKey="idDocente" Type="FD_SIA_DOCENTE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CE_SIA_PROCEDENCIA" Member="CE_SIA_PROCEDENCIA">
+    <Type Name="CE_SIA_PROCEDENCIA">
+      <Column Name="idProcedencia" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idInstitucion" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="idTipoDeEstudio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fIngreso" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fEgreso" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nCedula" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="promedio" Type="System.String" DbType="NChar(4)" CanBeNull="true" />
+      <Association Name="CE_SIA_PROCEDENCIA_FD_SIA_ALUMNO" Member="FD_SIA_ALUMNO" ThisKey="idProcedencia" OtherKey="idProcedencia" Type="FD_SIA_ALUMNO" />
+      <Association Name="CT_SIA_TIPOESTUDIO_CE_SIA_PROCEDENCIA" Member="CT_SIA_TIPOESTUDIO" ThisKey="idTipoDeEstudio" OtherKey="idTipoDeEstudio" Type="CT_SIA_TIPOESTUDIO" IsForeignKey="true" />
+      <Association Name="DP_SIA_INSTITUCION_CE_SIA_PROCEDENCIA" Member="DP_SIA_INSTITUCION" ThisKey="idInstitucion" OtherKey="idInstitucion" Type="DP_SIA_INSTITUCION" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_AUTORIZA" Member="CT_SIA_AUTORIZA">
+    <Type Name="CT_SIA_AUTORIZA">
+      <Column Name="idAutoriza" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nAutoriza" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="CT_SIA_AUTORIZA_CT_SIA_PROEDU" Member="CT_SIA_PROEDU" ThisKey="idAutoriza" OtherKey="idAutoriza" Type="CT_SIA_PROEDU" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_ESTADO" Member="CT_SIA_ESTADO">
+    <Type Name="CT_SIA_ESTADO">
+      <Column Name="idEstado" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nomEstado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="idPais" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="cEntiAbr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CT_SIA_ESTADO_DP_SIA_DOMICILIO" Member="DP_SIA_DOMICILIO" ThisKey="idEstado" OtherKey="idEstado" Type="DP_SIA_DOMICILIO" />
+      <Association Name="CT_SIA_PAIS_CT_SIA_ESTADO" Member="CT_SIA_PAIS" ThisKey="idPais" OtherKey="idPais" Type="CT_SIA_PAIS" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_FUNDAMENTOLEGAL" Member="CT_SIA_FUNDAMENTOLEGAL">
+    <Type Name="CT_SIA_FUNDAMENTOLEGAL">
+      <Column Name="idFLSS" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="detalle" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="CT_SIA_FUNDAMENTOLEGAL_FD_SIA_EGRESADO" Member="FD_SIA_EGRESADO" ThisKey="idFLSS" OtherKey="idFLSS" Type="FD_SIA_EGRESADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_GRUPO" Member="CT_SIA_GRUPO">
+    <Type Name="CT_SIA_GRUPO">
+      <Column Name="idGrupo" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idPE" Type="System.String" DbType="NChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="numAlumnos" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="periodo" Type="System.String" DbType="NChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="CT_SIA_GRUPO_CA_SIA_DTLAD" Member="CA_SIA_DTLAD" ThisKey="idGrupo" OtherKey="idGrupo" Type="CA_SIA_DTLAD" />
+      <Association Name="CT_SIA_GRUPO_FD_SIA_ALUMNO" Member="FD_SIA_ALUMNO" ThisKey="idGrupo" OtherKey="idGrupo" Type="FD_SIA_ALUMNO" />
+      <Association Name="CT_SIA_PROEDU_CT_SIA_GRUPO" Member="CT_SIA_PROEDU" ThisKey="idPE" OtherKey="idPE" Type="CT_SIA_PROEDU" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_MODALIDADESTUDIO" Member="CT_SIA_MODALIDADESTUDIO">
+    <Type Name="CT_SIA_MODALIDADESTUDIO">
+      <Column Name="idModalidad" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="dtlModalidad" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Association Name="CT_SIA_MODALIDADESTUDIO_DP_SIA_ASPIRANTES" Member="DP_SIA_ASPIRANTES" ThisKey="idModalidad" OtherKey="idModalidad" Type="DP_SIA_ASPIRANTES" />
+      <Association Name="CT_SIA_MODALIDADESTUDIO_FD_SIA_ALUMNO" Member="FD_SIA_ALUMNO" ThisKey="idModalidad" OtherKey="idModalidad" Type="FD_SIA_ALUMNO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_MODALIDADTITULACION" Member="CT_SIA_MODALIDADTITULACION">
+    <Type Name="CT_SIA_MODALIDADTITULACION">
+      <Column Name="idModalidad" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="detalle" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tipoModalidad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="CT_SIA_MODALIDADTITULACION_FD_SIA_EGRESADO" Member="FD_SIA_EGRESADO" ThisKey="idModalidad" OtherKey="idModalidad" Type="FD_SIA_EGRESADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_MOTIVOCANCELACION" Member="CT_SIA_MOTIVOCANCELACION">
+    <Type Name="CT_SIA_MOTIVOCANCELACION">
+      <Column Name="idMotivo" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="detalle" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idEgresado" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_PAIS" Member="CT_SIA_PAIS">
+    <Type Name="CT_SIA_PAIS">
+      <Column Name="idPais" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nomPais" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Association Name="CT_SIA_PAIS_CT_SIA_ESTADO" Member="CT_SIA_ESTADO" ThisKey="idPais" OtherKey="idPais" Type="CT_SIA_ESTADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_PRACTICA" Member="CT_SIA_PRACTICA">
+    <Type Name="CT_SIA_PRACTICA">
+      <Column Name="idPractica" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="detalle" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Association Name="CT_SIA_PRACTICA_VI_SIA_PRACTICAESCOLAR" Member="VI_SIA_PRACTICAESCOLAR" ThisKey="idPractica" OtherKey="idPractica" Type="VI_SIA_PRACTICAESCOLAR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_PROEDU" Member="CT_SIA_PROEDU">
+    <Type Name="CT_SIA_PROEDU">
+      <Column Name="idPE" Type="System.String" DbType="NChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idAutoriza" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nomProEdu" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="ciclo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="CT_SIA_PROEDU_CA_SIA_ASIGNATURA" Member="CA_SIA_ASIGNATURA" ThisKey="idPE" OtherKey="idPE" Type="CA_SIA_ASIGNATURA" />
+      <Association Name="CT_SIA_PROEDU_CT_SIA_GRUPO" Member="CT_SIA_GRUPO" ThisKey="idPE" OtherKey="idPE" Type="CT_SIA_GRUPO" />
+      <Association Name="CT_SIA_PROEDU_DP_SIA_ASPIRANTES" Member="DP_SIA_ASPIRANTES" ThisKey="idPE" OtherKey="idPE" Type="DP_SIA_ASPIRANTES" />
+      <Association Name="CT_SIA_AUTORIZA_CT_SIA_PROEDU" Member="CT_SIA_AUTORIZA" ThisKey="idAutoriza" OtherKey="idAutoriza" Type="CT_SIA_AUTORIZA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_ROL" Member="CT_SIA_ROL">
+    <Type Name="CT_SIA_ROL">
+      <Column Name="idRol" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="rol" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="NChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="CT_SIA_ROL_FD_SIA_EMPLEADO" Member="FD_SIA_EMPLEADO" ThisKey="idRol" OtherKey="idRol" Type="FD_SIA_EMPLEADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_SITUACIONACTUAL" Member="CT_SIA_SITUACIONACTUAL">
+    <Type Name="CT_SIA_SITUACIONACTUAL">
+      <Column Name="idSituacionActual" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="detalle" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Association Name="CT_SIA_SITUACIONACTUAL_FD_SIA_ALUMNO" Member="FD_SIA_ALUMNO" ThisKey="idSituacionActual" OtherKey="idSituacionActual" Type="FD_SIA_ALUMNO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_TIPOESTUDIO" Member="CT_SIA_TIPOESTUDIO">
+    <Type Name="CT_SIA_TIPOESTUDIO">
+      <Column Name="idTipoDeEstudio" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nTipoDeEstudio" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="CT_SIA_TIPOESTUDIO_CE_SIA_PROCEDENCIA" Member="CE_SIA_PROCEDENCIA" ThisKey="idTipoDeEstudio" OtherKey="idTipoDeEstudio" Type="CE_SIA_PROCEDENCIA" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CT_SIA_TIPOPAGO" Member="CT_SIA_TIPOPAGO">
+    <Type Name="CT_SIA_TIPOPAGO">
+      <Column Name="idTipoPago" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="concepto" Type="System.String" DbType="NChar(120)" CanBeNull="true" />
+      <Column Name="cUMA" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="unidadCobro" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uMedida" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="costo" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="grupo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="detalle" Type="System.String" DbType="NChar(120)" CanBeNull="true" />
+      <Column Name="vigencia" Type="System.String" DbType="NChar(8)" CanBeNull="true" />
+      <Association Name="CT_SIA_TIPOPAGO_RG_SIA_GREFERENCIA" Member="RG_SIA_GREFERENCIA" ThisKey="idTipoPago" OtherKey="idTipoPago" Type="RG_SIA_GREFERENCIA" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DP_SIA_ASPIRANTES" Member="DP_SIA_ASPIRANTES">
+    <Type Name="DP_SIA_ASPIRANTES">
+      <Column Name="idAspirante" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idPersona" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idPE" Type="System.String" DbType="NChar(5)" CanBeNull="true" />
+      <Column Name="idModalidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DP_SIA_ASPIRANTES_DTL_SIA_ASPIRANTE_GREFERENCIA" Member="DTL_SIA_ASPIRANTE_GREFERENCIA" ThisKey="idAspirante" OtherKey="idAspirante" Type="DTL_SIA_ASPIRANTE_GREFERENCIA" />
+      <Association Name="CT_SIA_MODALIDADESTUDIO_DP_SIA_ASPIRANTES" Member="CT_SIA_MODALIDADESTUDIO" ThisKey="idModalidad" OtherKey="idModalidad" Type="CT_SIA_MODALIDADESTUDIO" IsForeignKey="true" />
+      <Association Name="CT_SIA_PROEDU_DP_SIA_ASPIRANTES" Member="CT_SIA_PROEDU" ThisKey="idPE" OtherKey="idPE" Type="CT_SIA_PROEDU" IsForeignKey="true" />
+      <Association Name="DP_SIA_PERSONA_DP_SIA_ASPIRANTES" Member="DP_SIA_PERSONA" ThisKey="idPersona" OtherKey="idPersona" Type="DP_SIA_PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DP_SIA_DOMICILIO" Member="DP_SIA_DOMICILIO">
+    <Type Name="DP_SIA_DOMICILIO">
+      <Column Name="idDireccion" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="calle" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="nExterno" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="nInterno" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="colonia" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="municipio" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="cp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nTelFijo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idEstado" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="Localidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="DP_SIA_DOMICILIO_DP_SIA_INSTITUCION" Member="DP_SIA_INSTITUCION" ThisKey="idDireccion" OtherKey="idDireccion" Type="DP_SIA_INSTITUCION" />
+      <Association Name="DP_SIA_DOMICILIO_DP_SIA_PERSONA" Member="DP_SIA_PERSONA" ThisKey="idDireccion" OtherKey="idDireccion" Type="DP_SIA_PERSONA" />
+      <Association Name="CT_SIA_ESTADO_DP_SIA_DOMICILIO" Member="CT_SIA_ESTADO" ThisKey="idEstado" OtherKey="idEstado" Type="CT_SIA_ESTADO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DP_SIA_INSTITUCION" Member="DP_SIA_INSTITUCION">
+    <Type Name="DP_SIA_INSTITUCION">
+      <Column Name="idInstitucion" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="idDireccion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="clave" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Association Name="DP_SIA_INSTITUCION_CE_SIA_PROCEDENCIA" Member="CE_SIA_PROCEDENCIA" ThisKey="idInstitucion" OtherKey="idInstitucion" Type="CE_SIA_PROCEDENCIA" />
+      <Association Name="DP_SIA_DOMICILIO_DP_SIA_INSTITUCION" Member="DP_SIA_DOMICILIO" ThisKey="idDireccion" OtherKey="idDireccion" Type="DP_SIA_DOMICILIO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DP_SIA_PERSONA" Member="DP_SIA_PERSONA">
+    <Type Name="DP_SIA_PERSONA">
+      <Column Name="idPersona" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idDireccion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nombre" Type="System.String" DbType="NChar(80)" CanBeNull="true" />
+      <Column Name="aPaterno" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="aMaterno" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="CURP" Type="System.String" DbType="NChar(18)" CanBeNull="true" />
+      <Column Name="fNacimiento" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sexo" Type="System.String" DbType="NChar(9)" CanBeNull="true" />
+      <Column Name="discapacidad" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+      <Column Name="cElectronico" Type="System.String" DbType="NChar(35)" CanBeNull="true" />
+      <Column Name="nTelefonicoCel" Type="System.String" DbType="NChar(12)" CanBeNull="true" />
+      <Association Name="DP_SIA_PERSONA_DP_SIA_ASPIRANTES" Member="DP_SIA_ASPIRANTES" ThisKey="idPersona" OtherKey="idPersona" Type="DP_SIA_ASPIRANTES" />
+      <Association Name="DP_SIA_PERSONA_DP_SIA_TUTOR" Member="DP_SIA_TUTOR" ThisKey="idPersona" OtherKey="idPersona" Type="DP_SIA_TUTOR" />
+      <Association Name="DP_SIA_PERSONA_FD_SIA_ALUMNO" Member="FD_SIA_ALUMNO" ThisKey="idPersona" OtherKey="idPersona" Type="FD_SIA_ALUMNO" />
+      <Association Name="DP_SIA_PERSONA_FD_SIA_DOCENTE" Member="FD_SIA_DOCENTE" ThisKey="idPersona" OtherKey="idPersona" Type="FD_SIA_DOCENTE" />
+      <Association Name="DP_SIA_PERSONA_FD_SIA_EMPLEADO" Member="FD_SIA_EMPLEADO" ThisKey="idPersona" OtherKey="idPersona" Type="FD_SIA_EMPLEADO" />
+      <Association Name="DP_SIA_DOMICILIO_DP_SIA_PERSONA" Member="DP_SIA_DOMICILIO" ThisKey="idDireccion" OtherKey="idDireccion" Type="DP_SIA_DOMICILIO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DP_SIA_TITULO" Member="DP_SIA_TITULO">
+    <Type Name="DP_SIA_TITULO">
+      <Column Name="idTitulo" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="clave" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="url" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Association Name="DP_SIA_TITULO_FD_SIA_EGRESADO" Member="FD_SIA_EGRESADO" ThisKey="idTitulo" OtherKey="idTitulo" Type="FD_SIA_EGRESADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DP_SIA_TUTOR" Member="DP_SIA_TUTOR">
+    <Type Name="DP_SIA_TUTOR">
+      <Column Name="idTutor" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idPersona" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DP_SIA_TUTOR_FD_SIA_ALUMNO" Member="FD_SIA_ALUMNO" ThisKey="idTutor" OtherKey="idTutor" Type="FD_SIA_ALUMNO" />
+      <Association Name="DP_SIA_PERSONA_DP_SIA_TUTOR" Member="DP_SIA_PERSONA" ThisKey="idPersona" OtherKey="idPersona" Type="DP_SIA_PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DTL_SIA_ALUMNO_REFERENCIA" Member="DTL_SIA_ALUMNO_REFERENCIA">
+    <Type Name="DTL_SIA_ALUMNO_REFERENCIA">
+      <Column Name="idDTLAR" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idGREFERENCIA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idAlumno" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="FD_SIA_ALUMNO_DTL_SIA_ALUMNO_REFERENCIA" Member="FD_SIA_ALUMNO" ThisKey="idAlumno" OtherKey="idAlumno" Type="FD_SIA_ALUMNO" IsForeignKey="true" />
+      <Association Name="RG_SIA_GREFERENCIA_DTL_SIA_ALUMNO_REFERENCIA" Member="RG_SIA_GREFERENCIA" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="RG_SIA_GREFERENCIA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DTL_SIA_ASPIRANTE_GREFERENCIA" Member="DTL_SIA_ASPIRANTE_GREFERENCIA">
+    <Type Name="DTL_SIA_ASPIRANTE_GREFERENCIA">
+      <Column Name="idDTL_AR" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idAspirante" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idGREFERENCIA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DP_SIA_ASPIRANTES_DTL_SIA_ASPIRANTE_GREFERENCIA" Member="DP_SIA_ASPIRANTES" ThisKey="idAspirante" OtherKey="idAspirante" Type="DP_SIA_ASPIRANTES" IsForeignKey="true" />
+      <Association Name="RG_SIA_GREFERENCIA_DTL_SIA_ASPIRANTE_GREFERENCIA" Member="RG_SIA_GREFERENCIA" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="RG_SIA_GREFERENCIA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ED_SIA_EVDOC" Member="ED_SIA_EVDOC">
+    <Type Name="ED_SIA_EVDOC">
+      <Column Name="idEvDoc" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idDtlMM" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p01" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p02" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p03" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p04" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p05" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p06" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p07" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p08" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p09" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p10" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p11" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p12" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p13" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p14" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p15" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p16" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p17" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p18" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p19" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p20" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p21" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p22" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p23" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p24" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p25" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p26" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p27" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="p28" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="coment" Type="System.String" DbType="NChar(200)" CanBeNull="true" />
+      <Association Name="CA_SIA_DTLAD_ED_SIA_EVDOC" Member="CA_SIA_DTLAD" ThisKey="idDtlMM" OtherKey="idDtlAD" Type="CA_SIA_DTLAD" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FD_SIA_ALUMNO" Member="FD_SIA_ALUMNO">
+    <Type Name="FD_SIA_ALUMNO">
+      <Column Name="idAlumno" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idPersona" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idGrupo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="generacion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fIngreso" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="idSituacionActual" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="pInd" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="promedio" Type="System.String" DbType="NChar(5)" CanBeNull="true" />
+      <Column Name="idBeca" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idProcedencia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idTutor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nSeguro" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="intEVCD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idModalidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="FD_SIA_ALUMNO_VI_SIA_PRACTICAESCOLAR" Member="VI_SIA_PRACTICAESCOLAR" ThisKey="idAlumno" OtherKey="idAlumno" Type="VI_SIA_PRACTICAESCOLAR" />
+      <Association Name="FD_SIA_ALUMNO_DTL_SIA_ALUMNO_REFERENCIA" Member="DTL_SIA_ALUMNO_REFERENCIA" ThisKey="idAlumno" OtherKey="idAlumno" Type="DTL_SIA_ALUMNO_REFERENCIA" />
+      <Association Name="FD_SIA_ALUMNO_FD_SIA_EGRESADO" Member="FD_SIA_EGRESADO" ThisKey="idAlumno" OtherKey="idAlumno" Type="FD_SIA_EGRESADO" />
+      <Association Name="CT_SIA_GRUPO_FD_SIA_ALUMNO" Member="CT_SIA_GRUPO" ThisKey="idGrupo" OtherKey="idGrupo" Type="CT_SIA_GRUPO" IsForeignKey="true" />
+      <Association Name="CE_SIA_PROCEDENCIA_FD_SIA_ALUMNO" Member="CE_SIA_PROCEDENCIA" ThisKey="idProcedencia" OtherKey="idProcedencia" Type="CE_SIA_PROCEDENCIA" IsForeignKey="true" />
+      <Association Name="CT_SIA_MODALIDADESTUDIO_FD_SIA_ALUMNO" Member="CT_SIA_MODALIDADESTUDIO" ThisKey="idModalidad" OtherKey="idModalidad" Type="CT_SIA_MODALIDADESTUDIO" IsForeignKey="true" />
+      <Association Name="CT_SIA_SITUACIONACTUAL_FD_SIA_ALUMNO" Member="CT_SIA_SITUACIONACTUAL" ThisKey="idSituacionActual" OtherKey="idSituacionActual" Type="CT_SIA_SITUACIONACTUAL" IsForeignKey="true" />
+      <Association Name="DP_SIA_PERSONA_FD_SIA_ALUMNO" Member="DP_SIA_PERSONA" ThisKey="idPersona" OtherKey="idPersona" Type="DP_SIA_PERSONA" IsForeignKey="true" />
+      <Association Name="DP_SIA_TUTOR_FD_SIA_ALUMNO" Member="DP_SIA_TUTOR" ThisKey="idTutor" OtherKey="idTutor" Type="DP_SIA_TUTOR" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FD_SIA_DOCENTE" Member="FD_SIA_DOCENTE">
+    <Type Name="FD_SIA_DOCENTE">
+      <Column Name="idDocente" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idPersona" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hAsignadas" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="perfil" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="promedioED" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="grado" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="nivel" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="FD_SIA_DOCENTE_CA_SIA_DTLAD" Member="CA_SIA_DTLAD" ThisKey="idDocente" OtherKey="idDocente" Type="CA_SIA_DTLAD" />
+      <Association Name="DP_SIA_PERSONA_FD_SIA_DOCENTE" Member="DP_SIA_PERSONA" ThisKey="idPersona" OtherKey="idPersona" Type="DP_SIA_PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FD_SIA_EGRESADO" Member="FD_SIA_EGRESADO">
+    <Type Name="FD_SIA_EGRESADO">
+      <Column Name="idEgresado" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idAlumno" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="idTitulo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="detalle" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="revoe" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="fechaexp" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="idModalidad" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="idFLSS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="CT_SIA_FUNDAMENTOLEGAL_FD_SIA_EGRESADO" Member="CT_SIA_FUNDAMENTOLEGAL" ThisKey="idFLSS" OtherKey="idFLSS" Type="CT_SIA_FUNDAMENTOLEGAL" IsForeignKey="true" />
+      <Association Name="CT_SIA_MODALIDADTITULACION_FD_SIA_EGRESADO" Member="CT_SIA_MODALIDADTITULACION" ThisKey="idModalidad" OtherKey="idModalidad" Type="CT_SIA_MODALIDADTITULACION" IsForeignKey="true" />
+      <Association Name="DP_SIA_TITULO_FD_SIA_EGRESADO" Member="DP_SIA_TITULO" ThisKey="idTitulo" OtherKey="idTitulo" Type="DP_SIA_TITULO" IsForeignKey="true" />
+      <Association Name="FD_SIA_ALUMNO_FD_SIA_EGRESADO" Member="FD_SIA_ALUMNO" ThisKey="idAlumno" OtherKey="idAlumno" Type="FD_SIA_ALUMNO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FD_SIA_EMPLEADO" Member="FD_SIA_EMPLEADO">
+    <Type Name="FD_SIA_EMPLEADO">
+      <Column Name="idEmpleado" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idPersona" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="area" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="departamento" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="idRol" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="horario" Type="System.String" DbType="NChar(18)" CanBeNull="true" />
+      <Column Name="gAcademico" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="RFC" Type="System.String" DbType="NChar(13)" CanBeNull="true" />
+      <Column Name="NS" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Association Name="CT_SIA_ROL_FD_SIA_EMPLEADO" Member="CT_SIA_ROL" ThisKey="idRol" OtherKey="idRol" Type="CT_SIA_ROL" IsForeignKey="true" />
+      <Association Name="DP_SIA_PERSONA_FD_SIA_EMPLEADO" Member="DP_SIA_PERSONA" ThisKey="idPersona" OtherKey="idPersona" Type="DP_SIA_PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RG_SIA_GREFERENCIA" Member="RG_SIA_GREFERENCIA">
+    <Type Name="RG_SIA_GREFERENCIA">
+      <Column Name="idGREFERENCIA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idTipoPago" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="referencia" Type="System.Decimal" DbType="Decimal(20,0) NOT NULL" CanBeNull="false" />
+      <Column Name="fecha" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="RG_SIA_GREFERENCIA_DTL_SIA_ALUMNO_REFERENCIA" Member="DTL_SIA_ALUMNO_REFERENCIA" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="DTL_SIA_ALUMNO_REFERENCIA" />
+      <Association Name="RG_SIA_GREFERENCIA_DTL_SIA_ASPIRANTE_GREFERENCIA" Member="DTL_SIA_ASPIRANTE_GREFERENCIA" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="DTL_SIA_ASPIRANTE_GREFERENCIA" />
+      <Association Name="RG_SIA_GREFERENCIA_RG_SIA_PAGOSREALIZADOS" Member="RG_SIA_PAGOSREALIZADOS" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="RG_SIA_PAGOSREALIZADOS" />
+      <Association Name="RG_SIA_GREFERENCIA_RG_SIA_PAGOSREALIZADOS_ALUM" Member="RG_SIA_PAGOSREALIZADOS_ALUM" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="RG_SIA_PAGOSREALIZADOS_ALUM" />
+      <Association Name="CT_SIA_TIPOPAGO_RG_SIA_GREFERENCIA" Member="CT_SIA_TIPOPAGO" ThisKey="idTipoPago" OtherKey="idTipoPago" Type="CT_SIA_TIPOPAGO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RG_SIA_PAGOSREALIZADOS" Member="RG_SIA_PAGOSREALIZADOS">
+    <Type Name="RG_SIA_PAGOSREALIZADOS">
+      <Column Name="idPagoRealizado" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idGREFERENCIA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaAplicada" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="folio" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Association Name="RG_SIA_GREFERENCIA_RG_SIA_PAGOSREALIZADOS" Member="RG_SIA_GREFERENCIA" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="RG_SIA_GREFERENCIA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RG_SIA_PAGOSREALIZADOS_ALUM" Member="RG_SIA_PAGOSREALIZADOS_ALUM">
+    <Type Name="RG_SIA_PAGOSREALIZADOS_ALUM">
+      <Column Name="idPagoRealizadoAlu" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idGREFERENCIA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaAplicada" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="folio" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Association Name="RG_SIA_GREFERENCIA_RG_SIA_PAGOSREALIZADOS_ALUM" Member="RG_SIA_GREFERENCIA" ThisKey="idGREFERENCIA" OtherKey="idGREFERENCIA" Type="RG_SIA_GREFERENCIA" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

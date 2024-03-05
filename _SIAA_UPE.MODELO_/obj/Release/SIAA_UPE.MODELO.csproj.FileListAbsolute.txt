@@ -1,0 +1,28 @@
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.AssemblyReference.cache
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.CoreCompileInputs.cache
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.exe
+D:\00Proyectos\DESARROLLO\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe.config
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.exe
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.AssemblyReference.cache
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.CoreCompileInputs.cache
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.AssemblyReference.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\bin\Release\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.AssemblyReference.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.csproj.CoreCompileInputs.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.MODELO\obj\Release\SIAA_UPE.MODELO.pdb

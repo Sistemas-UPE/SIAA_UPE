@@ -1,0 +1,54 @@
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.exe
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe.config
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CopyComplete
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.AssemblyReference.cache
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CoreCompileInputs.cache
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CopyComplete
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.pdb
+C:\Users\Sistemas\Proyectos\Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.AssemblyReference.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.AssemblyReference.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CoreCompileInputs.cache
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CopyComplete
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe.config
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.pdb
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe.config
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.AssemblyReference.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.SuggestedBindingRedirects.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CoreCompileInputs.cache
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CopyComplete
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.exe
+C:\Z_Proyectos\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe.config
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.pdb
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.MODELO.exe.config
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.AssemblyReference.cache
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CoreCompileInputs.cache
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.csproj.CopyComplete
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.exe
+D:\00Proyectos\Restart\SIAA_UPE\SIAA_UPE.CONTROL\obj\Debug\SIAA_UPE.CONTROL.pdb
+D:\00Proyectos\SISTEMAS WEB\SIAA_UPE\SIAA_UPE.CONTROL\bin\Debug\SIAA_UPE.CONTROL.exe.config
